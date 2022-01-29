@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Supermercado+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neonderthaw&display=swap');
+
+.main {
+    background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+    height          : 170vh;
+}
+
+.avi-pro {
+    background-color: rgba(255, 255, 255, 0.493);
+    border-radius   : 20px;
+    box-shadow      : 5px 3px 5px rgba(0, 0, 0, 0.37);
+    margin: 0 10px;
+}
+
+.avi-title {
+    color     : rgb(20, 134, 0);
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Neonderthaw', cursive;
+}
+
+.req-title {
+    color     : rgb(0, 38, 255);
+    text-align: center;
+}
+.req-ti{
+    font-family: 'Neonderthaw', cursive;
+    font-size: 40px;
+}
+
+ul {
+    text-align     : center;
+    list-style-type: none;
+}
+
+.sub-ti {
+    text-align : center;
+    color      : rgb(0, 0, 0);
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.555);
+    font-family: 'Supermercado One', cursive;
+}
+
+.list {
+    color              : black;
+    font-weight        : 500;
+    font-size          : 20px;
+    border             : 2px rgba(0, 0, 0, 0.603);
+    border-bottom-style: solid;
+    margin: 0 50px;
+}
+.process{
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+    background-color: rgba(17, 25, 40, 0.75);
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.125);
+}
+.pro-ti{
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.555);
+    font-family: 'Supermercado One', cursive;
+    color: rgb(187, 255, 0);
+    letter-spacing: 2px;
+    border             : 3px rgba(255, 255, 255, 0.603);
+    border-bottom-style: dotted;
+    font-size: 40px;
+}
+.final-pro{
+    color: rgb(216, 179, 60);
+    font-weight: 700;
+}
